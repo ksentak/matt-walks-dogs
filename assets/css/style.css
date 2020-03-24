@@ -1,0 +1,148 @@
+/* General CSS */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background: url('../images/prism.png');
+}
+
+/* Header */
+.jumbotron {
+  margin: 0;
+  padding: 7rem 0 7rem 0;
+}
+
+.landing {
+  height: 100vh;
+  background: url('../images/landing-image.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landing h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 5rem;
+  color: white;
+  font-size: 75px;
+}
+
+.learn-more-btn {
+  height: 3rem;
+  width: 10rem;
+  color: white;
+  background-color: #35b88f;
+  font-size: 18px;
+  border-radius: 20px;
+  margin-top: 2rem;
+}
+
+.learn-more-btn:hover {
+  color: #35b88f;
+  background-color: white;
+  border: 1px solid #35b88f;
+}
+
+/* About */
+.about {
+  color: #fff;
+  text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+  background: #35b88f url('../images/banner.svg') bottom center no-repeat;
+  padding: 2rem 0 2rem 0;
+  margin: 0;
+  background-size: cover;
+}
+
+/* Services */
+.services {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.services-container {
+  background-color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.card {
+  border: none;
+  padding: 0;
+}
+
+.fonts {
+  display: inline-block;
+  text-align: center;
+  vertical-align: auto;
+  margin-bottom: 20px;
+  width: 8rem;
+  height: 8rem;
+  font-size: 5.5rem;
+  color: #35b88f;
+}
+
+.price-text {
+  padding: 0;
+  margin: 1px;
+}
+
+/* FAQ's */
+.faqs {
+  color: #fff;
+  text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+  background: #35b88f url('../images/banner.svg') bottom center no-repeat;
+  padding: 2rem 0 2rem 0;
+  margin: 0;
+  background-size: 125% auto;
+}
+
+.faq-q {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.faq-a {
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+
+/* Contact */
+.contact {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.contact-container {
+  background-color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.form-row {
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.submit-btn {
+  height: 3rem;
+  width: 10rem;
+  color: white;
+  background-color: #35b88f;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.submit-btn:hover {
+  color: #35b88f;
+  background-color: white;
+  border: 1px solid #35b88f;
+}
+
+/* Footer */
+footer {
+  color: white;
+}
